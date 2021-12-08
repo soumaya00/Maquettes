@@ -1,0 +1,53 @@
+body{
+    background-color: #f2f2f2;
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+main>section{
+    background-color: white;
+}
+main>section{
+    padding: 2%;
+}
+h1{
+    padding-top: 3%;
+}
+h4{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-top: 10px;
+    color: #9aaa14;
+    display: flex;
+}
+h4:after{
+    color:gray;
+    content:'';
+    flex:1;
+    border-bottom: solid 1px;
+    margin: auto 0.25em;
+}
+.amelie{
+    float: left;
+    padding: 2%;
+}
+.Xavier{
+    float: right;
+    padding: 2%;
+}
+.last{
+    background-color: #eaefcf;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    margin:4%;
+}
+h5{
+    padding-bottom: 8%;
+}
+.last>article{
+    flex-direction: column;
+    margin: 2%;
+}

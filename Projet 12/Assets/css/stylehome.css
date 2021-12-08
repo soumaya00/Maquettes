@@ -1,0 +1,80 @@
+body{    background-color: #f2f2f2;
+}
+main{
+    background-color: #f2f2f2;
+    text-align:center;
+}
+main>div{
+    margin: 2%;
+    padding: 1%;
+}
+main>section{
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+}
+.prix{
+    font-size: 24px;
+}
+h2{
+    color:#97af0f;
+    text-align: center;
+    margin: 3%;
+}
+div>img{
+    width: 100%;
+}
+.selection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.selection>h4{
+    margin: 2%;
+    text-align: center;
+}
+.selection>div>img{
+    text-align: center;
+}
+.button {
+    background-color: #7c5e1c;
+    border: none;
+    color: white;
+    padding: 5% 10%;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 200px;
+}
+.selection2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.selection2>div>img{
+    display: flex;
+    width: 65%;
+margin: 0 20%;
+}
+.selection2>div{
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+h4{
+    margin: 1%;
+    padding-top: 10px;
+    color: #9aaa14;
+    display: flex;
+}
+h4:before,
+h4:after{
+    color:gray;
+    content:'';
+    flex:1;
+    border-bottom: solid 1px;
+    margin: auto 0.25em;
+}

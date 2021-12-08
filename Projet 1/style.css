@@ -1,0 +1,47 @@
+*{
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+.gris{
+    font-family: Arial;
+    color:gray;
+}
+.gris2{
+    font-family: monospace;
+    color:gray;
+}
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+.blue{
+    color:blue;
+}
+.red2{
+    background-color: red;
+}
+.blue2{
+    background-color:blue;
+}
+.green2{
+    background-color:green;
+}
+#Purple{
+    color:purple;
+    text-decoration: underline;
+}
+div{
+    background-color: gray;
+    display: block;
+    height: 0.01px;
+    width: 100%;
+}
+footer{
+    text-align: center;
+}
+a{
+    color: rgb(16, 154, 240);
+}

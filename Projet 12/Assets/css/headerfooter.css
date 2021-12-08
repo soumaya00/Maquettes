@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    /* max-width: 1100px; */
+    font-size: 16px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+img{
+    width: 100%;
+}
+header{
+    background-image: url(../img/bg.jpg);
+    text-align: center;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.liv{
+    background-color: rgba(134, 158, 15, 0.384);
+    padding-top: 5px;
+    color: white;
+    text-align:center;
+    padding-bottom: 5px;
+}
+.meilleur{
+    width: 120px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+header>section{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 15%;
+    width: 70%;
+
+}
+.logo{
+    width: 220px;
+    height: 65px;
+}
+header>section>p{
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+header>div{
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 0% 15%;
+    justify-content: space-around;
+    padding: 0.3%;
+}
+header>div>a{
+    color:white;
+    text-decoration: none;
+}
+header>div>a:hover{
+    background-color: rgba(rgb(255, 255, 255));
+}
+footer{
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+footer a, footer p{
+    color:white;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+footer>section>img{
+    width: 3%;
+}
+footer>div{
+    background-color: rgba(134, 158, 15, 0.6);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 1.7%;
+    flex-wrap: wrap;
+}
+footer>div>div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color:#ced79d;
+    line-height: 50px;
+}
+footer>section>p{
+    color: white;
+}
+.sect2{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5%;
+    /* flex-wrap: wrap; */
+}
+.sect2>div{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    line-height: 30px;
+    /* flex-wrap: wrap; */
+}
+.sect3{
+    background-color: rgba(134, 158, 15, 0.6);
+    text-align: center;
+    padding:1.5%;
+}

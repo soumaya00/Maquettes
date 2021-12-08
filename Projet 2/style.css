@@ -1,0 +1,78 @@
+head{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+body{
+    font-size: 1.4em;
+    line-height: 50px;
+    text-indent: 25px;
+    padding-right: 25%;
+    padding-left: 25%;
+
+}
+.img{
+    margin-right: -92%;
+    margin-left: 0%;
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+}
+.img2{
+    margin-right: 0%;
+    margin-left: -100%;
+    width:50%;
+    height: 100px;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    font-size: 0.75em;
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+h2{
+    font-size: 2.5em;
+    word-spacing: 25px;
+}
+h3{
+    font-size: 1.5em;
+    word-spacing: 10px;
+}
+@font-face {
+    font-family: "Blacksword";
+    src: url(./fonts/Blacksword.otf);
+}
+@font-face{
+    font-family: "Cardor";
+    src: url(./fonts/cardo/cardo-regular.woff);
+}
+@font-face{
+    font-family: "Cardob";
+    src: url(./fonts/cardo/cardo-bold.woff);
+}
+@font-face{
+    font-family: "Cardoi";
+    src: url(./fonts/cardo/cardo-italic.woff);
+}
+h1, h2, h3{
+    font-family: Blacksword;
+}
+p, footer{
+    font-family: Cardo;
+}
+.rose{
+    color: pink
+}
+.right{
+    text-align: right;
+    font-family: Cardoi;
+    font-size: 1em;
+}
+.quote{
+    font-family: Cardoi;
+    font-size: 1.4em;
+    text-align: center;
+}

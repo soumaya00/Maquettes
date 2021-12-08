@@ -1,0 +1,15 @@
+.sect2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.selection2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

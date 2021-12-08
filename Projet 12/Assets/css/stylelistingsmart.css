@@ -1,0 +1,62 @@
+header>div{
+    display: flex;
+    flex-direction: column;
+}
+header>div>a{
+    flex-direction: column;
+    padding: 4%;
+}
+header>section{
+    display: flex;
+    flex-direction: column-reverse;
+    padding:0;
+    margin: 0;
+}
+header>section>p{
+    display: flex;
+    justify-content: flex-start;
+}
+.logo{
+    padding: 5% 40%;
+}
+.panier{
+    display: none;
+}
+footer>div{
+    display: flex;
+    flex-direction: row;
+}
+.sect2{
+    display: flex;
+    flex-direction: column;
+}
+.sect2>div{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    margin: 0;
+    padding:0;
+    width: 100%;
+}
+.premier{
+    display: flex;
+    flex-direction: column;
+}
+.premier>img{
+    display: none;
+}
+.selection2{
+    display: flex;
+    flex-direction: column;
+}
+.selection2>div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.selection2>div>img{
+    width: 40%;
+    text-align: center;
+}

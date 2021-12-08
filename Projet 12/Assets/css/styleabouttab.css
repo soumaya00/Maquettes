@@ -1,0 +1,12 @@
+.last{
+    display: flex;
+    flex-direction: column;
+}
+.last>article>img{
+    width: 20%;
+}
+main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

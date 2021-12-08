@@ -1,0 +1,9 @@
+header>div{
+    background-color: #30a894;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+}
+aside{
+    display: none;
+}
